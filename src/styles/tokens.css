@@ -1,0 +1,78 @@
+:root {
+  /* Surfaces */
+  --color-surface-brand-subtle: #EFF6FF;
+  --color-surface-default: #FFFFFF;
+  --color-surface-page: #F8FAFC;
+  --color-surface-subtle: #F1F5F9;
+
+  /* Text */
+  --color-text-brand: #1D4ED8;
+  --color-text-disabled: #94A3B8;
+  --color-text-inverse: #FFFFFF;
+  --color-text-muted: #64748B;
+  --color-text-primary: #0F172A;
+  --color-text-secondary: #475569;
+
+  /* Borders */
+  --color-border-focus: #2563EB;
+  --color-border-interactive: #64748B;
+  --color-border-subtle: #E2E8F0;
+  --stroke-default: 1px;
+  --stroke-focus: 2px;
+
+  /* Actions */
+  --color-action-disabled-background: #E2E8F0;
+  --color-action-disabled-content: #64748B;
+  --color-action-primary-content: #FFFFFF;
+  --color-action-primary-default: #2563EB;
+  --color-action-primary-hover: #1D4ED8;
+  --color-action-primary-pressed: #1E40AF;
+
+  /* Status */
+  --color-status-cancelled-background: #FEF2F2;
+  --color-status-cancelled-content: #B91C1C;
+  --color-status-confirmed-background: #F0FDF4;
+  --color-status-confirmed-content: #166534;
+  --color-status-draft-background: #F1F5F9;
+  --color-status-draft-content: #334155;
+  --color-status-full-background: #FFFBEB;
+  --color-status-full-content: #92400E;
+
+  /* Feedback */
+  --color-feedback-error-background: #FEF2F2;
+  --color-feedback-error-content: #B91C1C;
+
+  /* Spacing */
+  --space-0: 0px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Radius */
+  --radius-none: 0px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-pill: 999px;
+
+  /* Controls */
+  --control-height-sm: 32px;
+  --control-height-md: 40px;
+  --control-height-lg: 48px;
+
+  /* Icons */
+  --icon-size-sm: 16px;
+  --icon-size-md: 20px;
+  --icon-size-lg: 24px;
+
+  /* Layout */
+  --layout-content-max: 1160px;
+  --layout-sidebar-width: 240px;
+}
