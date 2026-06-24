@@ -1,0 +1,407 @@
+{
+  "metadata": {
+    "notice": "Generated from Figma. Do not edit manually.",
+    "libraryName": "FormaPilot UI",
+    "libraryVersion": "0.1.0",
+    "figmaFileName": "FormaPilot — Product Design",
+    "figmaSourceUrl": "https://www.figma.com/design/Dc0IzQ7KydEPtsVJhfXo1N/FormaPilot-%E2%80%94-Product-Design?node-id=1-3&t=wwFxlBY6f0tyIkAY-1",
+    "syncedAt": "2026-06-24T17:53:31Z"
+  },
+  "collections": {
+    "Semantic": {
+      "mode": "Light",
+      "variables": [
+        {
+          "figmaName": "action/disabled/background",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#E2E8F0",
+          "aliasPrimitive": "color/slate/200",
+          "syntaxWeb": "var(--color-action-disabled-background)"
+        },
+        {
+          "figmaName": "action/disabled/content",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#64748B",
+          "aliasPrimitive": "color/slate/500",
+          "syntaxWeb": "var(--color-action-disabled-content)"
+        },
+        {
+          "figmaName": "action/primary/content",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#FFFFFF",
+          "aliasPrimitive": "color/white",
+          "syntaxWeb": "var(--color-action-primary-content)"
+        },
+        {
+          "figmaName": "action/primary/default",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#2563EB",
+          "aliasPrimitive": "color/blue/600",
+          "syntaxWeb": "var(--color-action-primary-default)"
+        },
+        {
+          "figmaName": "action/primary/hover",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#1D4ED8",
+          "aliasPrimitive": "color/blue/700",
+          "syntaxWeb": "var(--color-action-primary-hover)"
+        },
+        {
+          "figmaName": "action/primary/pressed",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#1E40AF",
+          "aliasPrimitive": "color/blue/800",
+          "syntaxWeb": "var(--color-action-primary-pressed)"
+        },
+        {
+          "figmaName": "border/focus",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#2563EB",
+          "aliasPrimitive": "color/blue/600",
+          "syntaxWeb": "var(--color-border-focus)"
+        },
+        {
+          "figmaName": "border/interactive",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#64748B",
+          "aliasPrimitive": "color/slate/500",
+          "syntaxWeb": "var(--color-border-interactive)"
+        },
+        {
+          "figmaName": "border/subtle",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#E2E8F0",
+          "aliasPrimitive": "color/slate/200",
+          "syntaxWeb": "var(--color-border-subtle)"
+        },
+        {
+          "figmaName": "feedback/error/background",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#FEF2F2",
+          "aliasPrimitive": "color/red/50",
+          "syntaxWeb": "var(--color-feedback-error-background)"
+        },
+        {
+          "figmaName": "feedback/error/content",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#B91C1C",
+          "aliasPrimitive": "color/red/700",
+          "syntaxWeb": "var(--color-feedback-error-content)"
+        },
+        {
+          "figmaName": "status/cancelled/background",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#FEF2F2",
+          "aliasPrimitive": "color/red/50",
+          "syntaxWeb": "var(--color-status-cancelled-background)"
+        },
+        {
+          "figmaName": "status/cancelled/content",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#B91C1C",
+          "aliasPrimitive": "color/red/700",
+          "syntaxWeb": "var(--color-status-cancelled-content)"
+        },
+        {
+          "figmaName": "status/confirmed/background",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#F0FDF4",
+          "aliasPrimitive": "color/green/50",
+          "syntaxWeb": "var(--color-status-confirmed-background)"
+        },
+        {
+          "figmaName": "status/confirmed/content",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#166534",
+          "aliasPrimitive": "color/green/800",
+          "syntaxWeb": "var(--color-status-confirmed-content)"
+        },
+        {
+          "figmaName": "status/draft/background",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#F1F5F9",
+          "aliasPrimitive": "color/slate/100",
+          "syntaxWeb": "var(--color-status-draft-background)"
+        },
+        {
+          "figmaName": "status/draft/content",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#334155",
+          "aliasPrimitive": "color/slate/700",
+          "syntaxWeb": "var(--color-status-draft-content)"
+        },
+        {
+          "figmaName": "status/full/background",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#FFFBEB",
+          "aliasPrimitive": "color/amber/50",
+          "syntaxWeb": "var(--color-status-full-background)"
+        },
+        {
+          "figmaName": "status/full/content",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#92400E",
+          "aliasPrimitive": "color/amber/800",
+          "syntaxWeb": "var(--color-status-full-content)"
+        },
+        {
+          "figmaName": "surface/brand-subtle",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#EFF6FF",
+          "aliasPrimitive": "color/blue/50",
+          "syntaxWeb": "var(--color-surface-brand-subtle)"
+        },
+        {
+          "figmaName": "surface/default",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#FFFFFF",
+          "aliasPrimitive": "color/white",
+          "syntaxWeb": "var(--color-surface-default)"
+        },
+        {
+          "figmaName": "surface/page",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#F8FAFC",
+          "aliasPrimitive": "color/slate/50",
+          "syntaxWeb": "var(--color-surface-page)"
+        },
+        {
+          "figmaName": "surface/subtle",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#F1F5F9",
+          "aliasPrimitive": "color/slate/100",
+          "syntaxWeb": "var(--color-surface-subtle)"
+        },
+        {
+          "figmaName": "text/brand",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#1D4ED8",
+          "aliasPrimitive": "color/blue/700",
+          "syntaxWeb": "var(--color-text-brand)"
+        },
+        {
+          "figmaName": "text/disabled",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#94A3B8",
+          "aliasPrimitive": "color/slate/400",
+          "syntaxWeb": "var(--color-text-disabled)"
+        },
+        {
+          "figmaName": "text/inverse",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#FFFFFF",
+          "aliasPrimitive": "color/white",
+          "syntaxWeb": "var(--color-text-inverse)"
+        },
+        {
+          "figmaName": "text/muted",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#64748B",
+          "aliasPrimitive": "color/slate/500",
+          "syntaxWeb": "var(--color-text-muted)"
+        },
+        {
+          "figmaName": "text/primary",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#0F172A",
+          "aliasPrimitive": "color/slate/900",
+          "syntaxWeb": "var(--color-text-primary)"
+        },
+        {
+          "figmaName": "text/secondary",
+          "resolvedType": "COLOR",
+          "resolvedValue": "#475569",
+          "aliasPrimitive": "color/slate/600",
+          "syntaxWeb": "var(--color-text-secondary)"
+        }
+      ]
+    },
+    "Dimensions": {
+      "mode": "Default",
+      "variables": [
+        {
+          "figmaName": "control/height-lg",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "48px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "control/height-md",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "40px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "control/height-sm",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "32px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "icon/size-lg",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "24px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "icon/size-md",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "20px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "icon/size-sm",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "16px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "layout/content-max",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "1160px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "layout/sidebar-width",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "240px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "radius/lg",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "12px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "radius/md",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "8px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "radius/none",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "0px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "radius/pill",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "999px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "radius/sm",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "6px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "space/0",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "0px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "space/1",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "4px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "space/10",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "40px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "space/12",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "48px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "space/16",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "64px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "space/2",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "8px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "space/3",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "12px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "space/4",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "16px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "space/5",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "20px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "space/6",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "24px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "space/8",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "32px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "stroke/default",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "1px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        },
+        {
+          "figmaName": "stroke/focus",
+          "resolvedType": "FLOAT",
+          "resolvedValue": "2px",
+          "aliasPrimitive": null,
+          "syntaxWeb": null
+        }
+      ]
+    }
+  }
+}
